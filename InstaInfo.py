@@ -10,7 +10,7 @@ querystring = {"username":username,"random":"x8n3nsj2"}
 
 headers = {
 	"X-RapidAPI-Host": "easy-instagram-service.p.rapidapi.com",
-	"X-RapidAPI-Key": "c698df8aedmsh2fce1a9ce00c20cp1ebe88jsnfbc294cc09ce"
+	"X-RapidAPI-Key": "YOUR KEY HERE"
 }
 
 response = requests.request("GET", url, headers=headers, params=querystring)
